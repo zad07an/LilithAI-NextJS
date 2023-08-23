@@ -1,7 +1,7 @@
 import About from "@/components/about/About";
 import Disclaimer from "@/components/disclaimer/Disclaimer";
 import Hero from "@/components/hero/Hero";
-import Information from "@/components/information/Information";
+import Information from "@/components/screens/Information";
 
 export default function Home() {
   return (

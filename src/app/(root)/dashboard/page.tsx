@@ -1,5 +1,5 @@
 import Chat from "@/components/chat/Chat";
-import ResentChats from "@/components/resent-chats/ResentChats";
+import ResentChats from "@/components/chat/ResentChats";
 import React from "react";
 
 const Dashboard = () => {

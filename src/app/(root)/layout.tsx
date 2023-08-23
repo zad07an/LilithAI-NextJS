@@ -1,8 +1,8 @@
-import Navbar from "@/components/navbar/Navbar";
+import Navbar from "@/components/navigation/Navbar";
 import "../globals.css";
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
-import Bottombar from "@/components/bottombar/Bottombar";
+import Bottombar from "@/components/navigation/Bottombar";
 import Footer from "@/components/footer/Footer";
 import AppProvider from "@/context/AppProvider";
 
