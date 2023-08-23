@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import Switcher from "../ui/Switcher";
 import Image from "next/image";
 import Button from "../ui/Button";
@@ -41,10 +41,10 @@ const Chat = () => {
             <button className=" md:hidden block grow">
               <Image src={"/assets/icons/white-save-icon.svg"} alt="save" width={20} height={20} />
             </button>
-            <Button className=" md:block hidden py-2 px-4 grow">
+            <Button className=" md:block hidden py-2 px-4 grow hover:bg-light-1 hover:border-light-1 hover:text-dark-1">
               <Image src={"/assets/icons/save-icon.svg"} alt="save" width={16} height={16} />
             </Button>
-            <Button className=" md:flex hidden items-center gap-2 justify-center font-normal text-sm py-2 px-8 grow">
+            <Button className=" md:flex hidden items-center gap-2 justify-center font-normal text-sm py-2 px-8 grow hover:bg-light-1 hover:border-light-1 hover:text-dark-1">
               <Image
                 src={"/assets/icons/plus-without-circle-icon.svg"}
                 alt="save"

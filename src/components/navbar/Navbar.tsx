@@ -64,12 +64,12 @@ const Navbar = () => {
               } flex items-start flex-col gap-5 absolute right-10 top-28 py-4 pl-4 pr-16 rounded-md bg-dark-2 text-light-1 transition-all duration-200`}
             >
               <li>
-                <Link href={"/register"} className=" font-semibold">
+                <Link href={"/sign-up"} className=" font-semibold">
                   Sing Up
                 </Link>
               </li>
               <li>
-                <Link href={"/login"} className=" font-semibold">
+                <Link href={"/sign-in"} className=" font-semibold">
                   Sign In
                 </Link>
               </li>

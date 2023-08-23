@@ -34,7 +34,7 @@ const Bottombar = () => {
           </Link>
         </li>
         <li>
-          <Link href={"/register"}>
+          <Link href={"/sign-up"}>
             <Image src={"/assets/icons/user-dark-icon.svg"} alt="home" width={20} height={20} />
           </Link>
         </li>

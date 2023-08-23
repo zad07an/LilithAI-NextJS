@@ -20,7 +20,7 @@ const UploadModal: FC<Props> = ({ isOpen }) => {
       ref={modalRef}
       className={` ${
         isOpen ? "scale-100" : "scale-0"
-      } w-1/2 h-fit sm:hidden flex items-center justify-center flex-col gap-5 fixed inset-1/2 -translate-x-1/2 -translate-y-1/2 bg-yellow-1 p-10 rounded-2xl transition-all duration-200 z-50`}
+      } xs:w-1/2 w-11/12 h-fit sm:hidden flex items-center justify-center flex-col gap-5 fixed inset-1/2 -translate-x-1/2 -translate-y-1/2 bg-yellow-1 p-10 rounded-2xl transition-all duration-200 z-50`}
     >
       <button
         className=" bg-dark-2 rounded-full absolute top-3 right-3"

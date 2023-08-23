@@ -15,6 +15,12 @@ const config: Config = {
         "light-2": "#A9A9A8",
         "yellow-1": "#F1DD87",
         "yellow-2": "#7E734A"
+      },
+      screens: {
+        xs: "480px",
+        sm: "580px",
+        md: "768px",
+        lg: "1024px"
       }
     }
   },
